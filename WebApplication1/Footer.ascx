@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Footer.ascx.cs" Inherits="E_Comm.Footer" %>
+<asp:Label ID="Label1" runat="server" Text="Copyright to softtech" ForeColor="#FF66CC"></asp:Label>
