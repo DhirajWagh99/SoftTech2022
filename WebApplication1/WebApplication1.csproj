@@ -67,12 +67,116 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CatagoryCRUD.aspx" />
+    <Content Include="E-Comm.csproj" />
+    <Content Include="E-Comm.csproj.user" />
+    <Content Include="Footer.ascx" />
+    <Content Include="Home.aspx" />
+    <Content Include="LoginForm1.aspx" />
+    <Content Include="ManageRoles.aspx" />
+    <Content Include="Menu.ascx" />
+    <Content Include="MultiViewDemo.aspx" />
+    <Content Include="PartialCachingDemo.ascx" />
+    <Content Include="ProductCRUD.aspx" />
+    <Content Include="Register1.aspx" />
+    <Content Include="Registration.aspx" />
+    <Content Include="UserControlDemo.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CatagoryCRUD.aspx.cs">
+      <DependentUpon>CatagoryCRUD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CatagoryCRUD.aspx.designer.cs">
+      <DependentUpon>CatagoryCRUD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common.Master.cs">
+      <DependentUpon>Common.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common.Master.designer.cs">
+      <DependentUpon>Common.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Footer.ascx.designer.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm1.aspx.cs">
+      <DependentUpon>LoginForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginForm1.aspx.designer.cs">
+      <DependentUpon>LoginForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageRoles.aspx.cs">
+      <DependentUpon>ManageRoles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageRoles.aspx.designer.cs">
+      <DependentUpon>ManageRoles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.ascx.cs">
+      <DependentUpon>Menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu.ascx.designer.cs">
+      <DependentUpon>Menu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="MultiViewDemo.aspx.cs">
+      <DependentUpon>MultiViewDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MultiViewDemo.aspx.designer.cs">
+      <DependentUpon>MultiViewDemo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PartialCachingDemo.ascx.cs">
+      <DependentUpon>PartialCachingDemo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PartialCachingDemo.ascx.designer.cs">
+      <DependentUpon>PartialCachingDemo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductCRUD.aspx.cs">
+      <DependentUpon>ProductCRUD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductCRUD.aspx.designer.cs">
+      <DependentUpon>ProductCRUD.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register1.aspx.cs">
+      <DependentUpon>Register1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register1.aspx.designer.cs">
+      <DependentUpon>Register1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registration.aspx.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration.aspx.designer.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlDemo.aspx.cs">
+      <DependentUpon>UserControlDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControlDemo.aspx.designer.cs">
+      <DependentUpon>UserControlDemo.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Common.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
